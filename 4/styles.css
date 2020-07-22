@@ -1,0 +1,97 @@
+.menu {
+    list-style: none;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.header a:hover {
+    color: green;
+}
+
+.header div {
+    display: inline-block;
+}
+
+.menu a {
+    color: dimgrey;
+}
+
+#catalog h1, #catalog h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+#catalog .short_desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+#catalog .detailed_desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+#catalog .img_wrapper {
+    margin: 40px;
+}
+
+#catalog img {
+    border: 8px double rebeccapurple;
+}
+
+#catalog img:hover {
+    border: 8px double white;
+}
+
+#catalog p::first-letter {
+    font-size: 190%;
+    font-style: italic;
+    font-weight: 400;
+    color: orange;
+    font-family: "DejaVu Serif Condensed", serif;
+}
+
+#catalog table.sample_border {
+    border: 1px double grey;
+    background-color: aquamarine;
+    border-collapse: collapse;
+}
+
+#catalog table.sample_border td {
+    border: 1px double grey;
+}
+
+#catalog table.sample_border tr:first-child {
+height: 64px;
+}
+
+.item_props {
+    list-style-image: url("img/rocket.svg");
+}
+
+#contacts .wrap {
+    font-size: 16px;
+    margin-bottom: 10px;
+    min-width: 150px;
+}
+
+#contacts .form {
+    width: 500px;
+    border: double #eaeaea;
+    background-color: antiquewhite;
+}
+
+#contacts input[type="email"]:focus {
+    color: green;
+}
+
+#contacts input {
+    text-transform: capitalize;
+}
