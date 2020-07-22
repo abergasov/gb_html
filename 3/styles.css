@@ -1,0 +1,47 @@
+.menu {
+    list-style: none;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.menu a {
+    color: dimgrey;
+}
+
+#catalog h1, #catalog h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+#catalog .short_desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+#catalog .detailed_desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.item_props {
+    list-style-image: url("img/rocket.svg");
+}
+
+#contacts .wrap {
+    font-size: 16px;
+    margin-bottom: 10px;
+    min-width: 150px;
+}
+
+#contacts .form {
+    width: 500px;
+    border: double #eaeaea;
+    background-color: antiquewhite;
+}
